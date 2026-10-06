@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "StayPut",
+  "version": "0.1.0",
+  "description": "GitHub images open in an in-page preview. External links open in a new tab.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://github.com/*",
+    "https://*.githubusercontent.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://gist.github.com/*"
+      ],
+      "js": [
+        "lib.js",
+        "content.js"
+      ]
+    }
+  ]
+}
