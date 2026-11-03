@@ -1,5 +1,8 @@
 # StayPut
 
+https://github.com/user-attachments/assets/f4546834-b7c5-4bff-98ca-90bacb871e7c
+
+
 Chrome/Arc extension for github.com:
 
 - Click an image to open it in an in-page preview with buttons to copy the image, copy its URL, open the original, or close (Esc or a click outside also closes it).
